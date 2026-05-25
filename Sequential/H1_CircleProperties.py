@@ -1,0 +1,7 @@
+radius = float(input("Enter the radius of the circle: "))
+angle = float(input("Enter the angle in degrees (for sector area): "))
+print("Radius:", radius) 
+print("Diameter: ", radius * radius)
+print("circumference", 2 * 3.14 * radius)
+print("sector_area", (angle / 360) * 3.14 * radius * radius)
+print("arc_length", (angle / 360) * 2 * 3.14 * radius)
