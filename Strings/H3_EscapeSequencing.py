@@ -1,0 +1,11 @@
+string1 = input()
+string1 = string1.replace("'''", "").strip()
+
+print("Initial String with use of Triple Quotes:",string1)
+print("Escaping Single Quote:", string1)
+print("Escaping Double Quotes:",string1)
+print("Escaping Backslashes:", "C:\\Python\\Geeks\\")
+print("Tab:", "Hi\tGeeks")
+print("New Line:")
+print("Python")
+print("Geeks")
