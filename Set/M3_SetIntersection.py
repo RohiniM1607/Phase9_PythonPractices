@@ -1,6 +1,6 @@
-set1 = set(map(int, set1.split()))
+set1 = set(map(int, input("Enter first set elements: ").split()))
+set2 = set(map(int, input("Enter second set elements: ").split()))
 
-common = set.intersection(set1)
-output = len(common)
+common = set1.intersection(set2)
 
-print(output)
+print("Common elements:", common)
